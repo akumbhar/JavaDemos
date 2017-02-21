@@ -1,4 +1,4 @@
-package com.learn.demos.set;
+package com.learn.demos.collections;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;

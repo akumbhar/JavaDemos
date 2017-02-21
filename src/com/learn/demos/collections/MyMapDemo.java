@@ -1,4 +1,4 @@
-package com.learn.demos.maps;
+package com.learn.demos.collections;
 
 import java.util.HashMap;
 import java.util.Hashtable;
