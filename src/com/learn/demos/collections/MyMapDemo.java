@@ -11,7 +11,6 @@ public class MyMapDemo {
 
 	public static void main(String[] args) {
 		
-		
 		Map<Integer, String> map1 = new HashMap<>();
 		map1.put(1,  "AAA");
 		map1.put(2,  "BBB");
@@ -32,18 +31,14 @@ public class MyMapDemo {
 		map2.put(null,  "ZZZ");
 		System.out.println(map2);
 		
-
-		
 		Map<Integer, String> map3 = new TreeMap<>();
 		map3.put(1,  "AAA");
 		map3.put(3,  "CCC");
 		map3.put(5,  null);
 		map3.put(2,  "BBB");
 		map3.put(4,  "DDD");
-		
 		//map3.put(null,  "EEE");
 		System.out.println(map3);
-		
 		
 		Map<String, Integer> map4 = new TreeMap<>();
 		map4.put("AAA", 3);
@@ -55,15 +50,13 @@ public class MyMapDemo {
 		map4.put("MMM", null);
 		System.out.println(map4);
 		
-		
-		
 		Hashtable<String, Integer> hTable = new Hashtable<>();
 		hTable.put("AAA",10);
 		hTable.put("AAA",20);
 		hTable.put("BBB",60);
 		hTable.put("DDD",40);
 		hTable.put("CCC",50);
-		hTable.put("PPP",null);
+		//hTable.put("PPP",null);
 		//hTable.put("CCC",50);
 		System.out.println(hTable);
 	}
